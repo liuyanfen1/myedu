@@ -9,6 +9,7 @@ def dict_sel():
     print(adict["password"])
     print(bdict[5])
     print(adict["username"])
+
 def dict_sel():
     adict.pop('password')
     print(adict)
@@ -42,10 +43,10 @@ def str2dict():
     print(type(cdict))
 
 if __name__ == '__main__':
-    # dict_sel()
+    dict_sel()
     # dict_sel()
     # dict_update()
     # dict_add()
     # dict_add1()
-    dict2str()
-    str2dict()
+    # dict2str()
+    # str2dict()
